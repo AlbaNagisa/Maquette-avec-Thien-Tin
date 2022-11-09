@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <title></title>
+    <meta name="description" content="Super mega maquette" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="tabbar">
+      <!-- image -->
+      <div
+        style="
+          margin-right: 2%;
+          margin-left: 2%;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        "
+      >
+        <div style="display: flex; flex-direction: row">
+          <div style="color: white">
+            <img src="assets/Jumpman_logo.svg" height="87vh" width="87vw" />
+          </div>
+          <div>
+            <h2>Jordan</h2>
+          </div>
+        </div>
+        <!-- menu -->
+        <div
+          style="
+            display: flex;
+            width: 40%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <div>
+            <h2><a href="/#">Sneakers</a></h2>
+          </div>
+          <div>
+            <h2><a href="/#">Team</a></h2>
+          </div>
+          <div>
+            <h2><a href="/#">About</a></h2>
+          </div>
+          <div>
+            <h2><a href="/#">Jojo le boss</a></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container général -->
+    <div style="display: flex; flex-direction: column">
+      <!-- container chaussure + titre -->
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        "
+      >
+        <!-- title -->
+        <div style="margin-top: 5%">
+          <h1 style="color: white">« Dream It, Do It »</h1>
+        </div>
+        <!-- image chaussure -->
+        <div style="flex-direction: row; align-content: center">
+          <button
+            style="background-color: transparent; border-color: transparent"
+            id="leftArrow"
+          >
+            <img
+              class="fleche2"
+              src="assets/fleche.svg"
+              alt="Logo Jordan 1 Mid"
+              height="50vh"
+              width="50vw"
+            />
+          </button>
+          <img
+            src="assets/sneaker.png"
+            alt="Logo Jordan 1 Mid"
+            id="chaussure"
+            height="600vh"
+            width="500vw"
+          />
+          <button
+            style="background-color: transparent; border-color: transparent"
+            id="rightArrow"
+          >
+            <img
+              class="fleche1"
+              src="assets/fleche.svg"
+              alt="Logo Jordan 1 Mid"
+              height="50vh"
+              width="50vw"
+            />
+          </button>
+        </div>
+      </div>
+      <!-- container paragraphe -->
+      <div style="display: flex; align-items: center; justify-content: center">
+        <div style="width: 40%">
+          <p id="description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0.1);
+        bottom: 0;
+        position: absolute;
+        width: 100%;
+      "
+    >
+      <h4 style="color: white">Made by Thien-Tin & Alban with</h4>
+      <h4 style="color: white" id="heart" title="C'est faut j'ai galéré">❤</h4>
+    </footer>
+  </body>
+
+  <script src="/script/index.js"></script>
+</html>
